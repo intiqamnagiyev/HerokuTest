@@ -1,1 +1,1 @@
-web:    java $JAVA_OPTS -jar target/* --port $PORT target/*.war
+web: java -cp target/classes/:target/dependency/* org.example.HerokuTest
